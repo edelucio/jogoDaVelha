@@ -21,17 +21,17 @@ public class Tabuleiro {
 			for(int coluna = 0; coluna < 3; coluna++) {
 				
 				if(tabuleiro[linha] [coluna] == -1) {
-					System.out.println("X");
+					System.out.print("X");
 				}
 				if(tabuleiro[linha] [coluna] == 1) {
-					System.out.println("O");
+					System.out.print("O");
 				}
 				if(tabuleiro[linha] [coluna] == 0) {
-					System.out.println(" ");
+					System.out.print(" ");
 				}
 				
 				if(coluna == 0 || coluna == 1) 
-					System.out.println("|");
+					System.out.print("|");
 			}
 			System.out.println();			
 		}
