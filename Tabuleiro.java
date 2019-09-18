@@ -27,7 +27,7 @@ public class Tabuleiro {
 					System.out.println("O");
 				}
 				if(tabuleiro[linha] [coluna] == 0) {
-					System.out.println("  ");
+					System.out.println(" ");
 				}
 				
 				if(coluna == 0 || coluna == 1) 
@@ -44,8 +44,8 @@ public class Tabuleiro {
 	public void setPosicao(int[] tentativa, int jogador) {
 		if(jogador == 1)
 			tabuleiro[tentativa[0]][tentativa[1]] = -1;
-			else
-				tabuleiro[tentativa[0]][tentativa[1]] = 1;
+		else
+			tabuleiro[tentativa[0]][tentativa[1]] = 1;
 		
 		exibeTabuleiro();
 	}
@@ -97,5 +97,3 @@ public class Tabuleiro {
 	}
 
 }
-	
-
